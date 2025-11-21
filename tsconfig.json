@@ -1,12 +1,14 @@
 {
   "compilerOptions": {
-    "jsx": "react",
+    "jsx": "react-jsx",
     "outDir": "dist",
-    "rootDir": "src",
     "module": "CommonJS",
     "target": "ES2020",
     "declaration": true,
     "resolveJsonModule": true,
-    "esModuleInterop": true
-  }
+    "esModuleInterop": true,
+    "allowJs": true,
+  },
+  "include": ["cli", "helpers", "registry"],
+  "exclude": ["templates", "node_modules"]
 }
