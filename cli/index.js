@@ -1,0 +1,35 @@
+import { program } from "commander";
+import add from "./commands/add.js";
+import addAll from "./commands/addAll.js";
+import update from "./commands/update.js";
+import init from "./commands/init.js";
+
+program
+  .name("my-ui")
+  .description("Your custom UI component CLI")
+  .version("1.0.0");
+
+program
+  .command("add <component>")
+  .option("--ts", "Install TypeScript version")
+  .option("--js", "Install JavaScript version")
+  .action(add);
+
+program
+  .command("add-all")
+  .option("--ts")
+  .option("--js")
+  .action(addAll);
+
+program
+  .command("update <component>")
+  .option("--ts")
+  .option("--js")
+  .action(update);
+
+program
+  .command("init")
+  .description("Setup Tailwind and folder structure")
+  .action(init);
+
+program.parse();

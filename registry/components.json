@@ -1,0 +1,25 @@
+{
+  "button": {
+    "name": "Button",
+    "files": {
+      "js": [
+        { "src": "button.jsx", "dest": "components/ui/button.jsx" }
+      ],
+      "ts": [
+        { "src": "button.tsx", "dest": "components/ui/button.tsx" }
+      ]
+    }
+  },
+
+  "input": {
+    "name": "Input",
+    "files": {
+      "js": [
+        { "src": "input.jsx", "dest": "components/ui/input.jsx" }
+      ],
+      "ts": [
+        { "src": "input.tsx", "dest": "components/ui/input.tsx" }
+      ]
+    }
+  }
+}
