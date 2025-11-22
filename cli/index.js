@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { program } from "commander";
 import add from "./commands/add.js";
 import addAll from "./commands/addAll.js";
@@ -5,8 +7,8 @@ import update from "./commands/update.js";
 import init from "./commands/init.js";
 
 program
-  .name("my-ui")
-  .description("Your custom UI component CLI")
+  .name("pk-ui")
+  .description("CLI component created by pankajkoree")
   .version("1.0.0");
 
 program
