@@ -1,5 +1,5 @@
 import React from "react";
-import { cva } from "../../helpers/cva";
+import { cva } from "@pankaj.koree/pkui/helpers/cva.js";
 
 const styles = cva("px-4 py-2 rounded", {
   variant: {

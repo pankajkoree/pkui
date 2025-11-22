@@ -13,6 +13,16 @@
     "templates",
     "registry"
   ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./helpers/cva.js": {
+      "import": "./dist/helpers/cva.js",
+      "types": "./dist/helpers/cva.d.ts"
+    }
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
