@@ -1,9 +1,8 @@
-import React from "react";
 
-const Label = ({ labelName }) => {
+const Label = ({ labelName,id }) => {
   return (
     <div>
-      <label htmlFor="">{labelName}</label>
+      <label htmlFor={id}>{labelName}</label>
     </div>
   );
 };
