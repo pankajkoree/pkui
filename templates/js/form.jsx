@@ -5,8 +5,11 @@ import Input from "./input";
 const Form = ({labelName,id}) => {
   return (
     <div>
-      <Label>{labelName}</Label>
+      <form>
+         <Label>{labelName}</Label>
       <Input />
+      </form>
+     
     </div>
   );
 };
